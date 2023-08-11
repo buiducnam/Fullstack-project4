@@ -1,0 +1,13 @@
+## Udagram Pipeline
+
+![Pipeline](pipeline.png)
+
+### Continuous Integration
+#### GitHub
+A developer first creates an emoji repository on github, puts the code and commits it.
+Repository is connected to CircleCi and fired whenever a developer pushes a change to the connected repository.
+
+#### CircleCI
+The *dotcircleci/config.yml* file needs to be in the root folder so that CircleCi can read it and perform its two main tasks: build and deploy for both the backend and frontend.
+
+An example pipeline diagram is shown in the file pipline.jpg.
